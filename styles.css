@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f8f6f3;
+    color: #333;
+display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+header img {
+    width: 50px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: gold;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.cuisine {
+display: flex;
+justify-content: space-between;
+gap: 3px;
+margin: 5px;
+transition: transform 0.3s ease;
+}
+.cuisine img:hover{
+ transform: scale(1.05);
+}
+.cuisine img{
+border-radius: 15px;
+}
+.cuisine_ {
+display: flex;
+justify-content: space-between;
+gap: 3px;
+margin: 10px 120px;
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+#his {
+  background-color: #f2ebf1;
+}
+#historyb {
+background-color: #1c1c1c;
+color: white; 
+padding: 10px 20px; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer;
+}
+#historyb:hover {
+background-color: #f2ebf1;
+color: black;
+font-weight: bold;
+}
+section img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+}
+.mission{
+display: flex;
+margin: 10px 100px;
+}
+.mission_text{
+font-size: 20px;
+padding: 100px;
+}
+.mission_img img{
+border-radius: 15px;
+}
+.vision{
+display: flex;
+margin: 10px 100px;
+}
+.vision_text{
+font-size: 20px;
+padding: 100px;
+}
+.vision_img img{
+border-radius: 15px;
+}
+.menu{
+display: flex;
+margin: 10px 100px;
+justify-content: space-between;
+gap: 10px;
+}
+.loc{
+display: flex;
+justify-content: space-between;
+margin: 10px 150px;
+}
+.menu img:hover{
+transform: scale(1.05);
+}
+.members{
+display: flex;
+justify-content: space-between;
+margin: 10px 350px;
+}
+.mem1{
+display: block;
+border-style: ridge;
+font-size: 22px;
+padding: 30px;
+background-color: #f2ebf1;
+}
+.mem2{
+display: block;
+border-style: ridge;
+font-size: 22px;
+padding: 30px;
+background-color: #f2ebf1;
+}
+.form {
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+margin 100px 0px;
+}
+
